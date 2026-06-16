@@ -46,3 +46,4 @@ search.addEventListener('input', ()=>{
         alert("Kuay Rai I sus")
     }
 });
+

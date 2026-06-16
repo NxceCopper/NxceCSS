@@ -6,8 +6,13 @@
     padding: 0;
 }
 
-body {
+html {
     user-select: none;
+}
+
+body {
+    width: 100dvw;
+    height: 100dvh;
     font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'SF Pro Display', Roboto, sans-serif;
 }
 
@@ -156,6 +161,22 @@ body {
 
 .h-500 {
     height: 500px;
+}
+
+.h-600 {
+    height: 600px;
+}
+
+.h-700 {
+    height: 700px;
+}
+
+.h-800 {
+    height: 800px;
+}
+
+.h-900 {
+    height: 900px;
 }
 
 .h-fulls {
@@ -519,7 +540,7 @@ body {
 }
 
 .f-gray {
-    color: gray
+    color: rgb(73, 73, 73)
 }
 
 .bold {
@@ -576,6 +597,12 @@ body {
     transform: scale(1.05) translateY(-3px) rotate(0.6deg);
     margin-inline: 15px;
     background-color: rgba(226, 226, 226, 0.7);
+}
+
+.click {transition: 0.3s;}
+.click:active {
+    transform: scale(0.95);
+    background-color: rgb(223, 223, 223, 0.7);
 }
 
 @keyframes fadein {
